@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Pacifico|Righteous|Roboto+Condensed|Ubuntu');
+html{
+    scroll-behavior: smooth;
+}
+body{
+	padding:0%;
+	margin:0%;
+	font-family: 'Lato', sans-serif;
+}
+.parap{text-align:justify;}
+}
+.navbar-brand{
+	font-family: 'Pacifico', cursive;
+	font-size:35px;
+	color:lightcoral!important;
+}
+.nav-link{
+	font-size:16px;
+	margin:15px;
+	color:black!important;
+	font-family: 'Roboto Condensed', sans-serif;
+	display: inline-block;
+}
+.nav-link:hover{
+	color:#00E8E8!important;
+}
+.active .nav-link{
+	color:#00E8E8!important;
+}
+/* for background image */
+.site-content{
+	/*background-image:url(image/bg.jpg);*/
+	background-size:covers;
+    background-position: center;
+	background-color:#343a40;
+}
+.site-content, .site-desc{
+	color:white;
+	font-family: 'Righteous', cursive;
+}
+.site-title{
+	margin-top:5%;
+	margin-bottom:0%;
+	font-size:50px;
+}
+.site-desc{
+	font-size:18px;
+	padding-left:12%;
+	padding-bottom:0%;
+}
+/*image zoom*/
+.inner{
+    overflow: hidden;
+}
+.container.inner{
+    overflow: hidden;
+}
+.inner img{
+    transition: all 1.5s ease;
+}
+.inner:hover img{
+    transform: scale(1.5);
+}
+/*--endinh image zoom effect--*/
+/*.social{
+    width: 15%;
+    font-size: 15px;
+    
+}*/
+.back-to-top {
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display:none;
+}
+/*form style*/
+.form{
+    border: 3px solid dodgerblue;
+}
+/*--sevices-section--*/
+.section-1 .heading-1{
+	margin-top:8%;
+}
+.section-1 .heading-2{
+	margin-bottom:5%;
+	font-size:20px;
+}
+.section-1 .para-1{
+	width:60%;
+	margin-left:20%;
+	margin-bottom:5%;
+}
+.section-1 .card-text, .para-1{
+	color:rgba(0,0,0,0.70);
+}
+.section-1{
+	margin-bottom:8%;
+}
+.card{
+	width:20rem;
+}
+.section-1 .btn{
+	margin-bottom:15%;
+	width:50%;
+	padding:2% 5%;
+}
+.cookies{
+	float:fixed;
+	background:dark;
+}
+/*for reservation form*/
+ #wrapper {
+    width: 100%;
+    background:#09192A;
+	
+}
+
+#page-wrapper {
+    padding: 15px 15px;
+    min-height: 600px;
+    background:#E5EBF2;
+	 
+   
+}
+#page-inner {
+    width:100%;
+    margin:10px 20px 10px 0px;
+    background-color:transparent;
+    padding:10px;
+    min-height:1200px;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
